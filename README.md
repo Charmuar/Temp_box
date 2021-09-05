@@ -39,15 +39,13 @@ this project have  3 Section
 margin-box :  margin-Top,
               margin-bot,
               margin-left,
-              margin-right
-        and
+              margin-right,
               nut-right,
               nut-left
 
 mainboard :  
             main-nut  :     breadboard,
                             bottom-mainboard,
-                        and
                             nut-left,
                             nut-right
 
