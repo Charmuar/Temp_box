@@ -28,31 +28,27 @@ Tempbox
 
         this project have  3 Section
 
-1. margin-box (margin, nut, drill a hole)
-2. mainboard  
-3. lid-box 
+        1. margin-box (margin, nut, drill a hole)
+        2. mainboard  
+        3. lid-box 
 
             lid-box : {
                     lidbox,
                     lid_layer1
             }
-            margin-box : {
-                    margin-Top,
-                    margin-bot,
-                          margin-left,
-                          margin-right,
-                          nut-right,
-                          nut-left
-
-        mainboard   :{
-
-            main-nut  :     breadboard,
-                            bottom-mainboard,
-                            nut-left,
-                            nut-right
-
-            margin- breadboard :  top-right,
-                                  top-left,
-                                  bot-right,
-                                  bot-left
-        }
+            mainboard :{
+                    lock-nut-wall-top,
+                    lock-nut-wall-down
+                         mainboard_bot :{
+                                 margin-breadboard,
+                                 main-lock-nut
+                        }
+           }
+           margin-box : {
+                   top,
+                   bot,
+                   right,
+                   left,
+                   lock-nut-left,
+                   lock-nut-right
+           }
