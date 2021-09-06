@@ -45,60 +45,117 @@ This project build for education  on Bachelor's degree
                  v
         list : {
             lid-box : {
-                    lidbox,
-                    lid_layer1
+                    lidbox,                         
+                    lid_layer1                      
                         }
             mainboard :{
-                    lock-nut-wall-top,
-                    lock-nut-wall-down
+                    lock-nut-wall-top,              
+                    lock-nut-wall-down              
                          mainboard_bot :{
-                                 margin-breadboard,
-                                 main-lock-nut
-                                        }
-                         }
+                                 margin-breadboard  : {
+                                         t_l,
+                                         t_r,
+                                         b_l,
+                                         b_r
+                                 }
+                                 main-nut  : {
+                                         bottom_mainboard,
+                                         breadboard,
+                                         nut_left_relay,
+                                         nut_right_relay
+                                 } 
+                        }
+                }
              margin-box : {
                     top,
                     bot,
                     right,
                     left,
                     lock-nut-left,
-                    lock-nut-right
+                    lock-nut-right      
                           }
-
                                     }
                }
-
 ****************************************************************************
-
         lid-box :{
                 width  : 110 mm.
                 height : 70  mm.
-        }
+        },
         lid-layer1 :{
                 width  : 110 mm.
                 height : 70  mm.
-        }
+        }, 
 ****************************************************************************
-        mainboard : {
-                width  : 110 mm.
-                height : 70  mm.
-                }
+        lock-wall-top : {
+                        width  : 15 mm,
+                        height : 25 mm
+                        circle(drill) : { 
+                                radius :  1.5 mm,
+                                height form point : 3.5 mm,
+                                width from point : 7.5 mm
+                                }
+                        }
+                }, 
+                lock--wall-bot : {
+                        width  : 15 mm,
+                        height :  25 mm
+                        circle(drill) : { 
+                                radius :  1.5 mm,
+                                height form point : 21.5 mm,
+                                width from point : 7.5 mm
+                                }
+                },
+                        mainboard_bot :{
+                                    margin-breadboard(all={top,right,left,bot}) : {
+                                        width  : 1.5 mm, (4 piece)
+                                        height : 7 mm   (4 piece)
+                                                main-nut : {
+                                                        bottom_mainboard :{
+                                                                width  :  110 mm,
+                                                                height :  70 mm
+                                                        }
+                                                        breadboard : {
+                                                                width  : 31 mm,
+                                                                height : 47 mm
+                                                        }
+                                                        nut-left-relay :{
+                                                                radius : 1.5 mm, (in)
+                                                                radius : 2.5 mm (out)
+                                                        }
+                                                        nut-right-relay :{
+                                                                radius : 1.5 mm. (in)
+                                                                radius : 2.5 mm (out)
+                                                        }
+                                                }
+                                 }
+                        }    
+****************************************************************************
         margin-top :{
-                width  : 70  mm.
-                height : 36  mm.
-                }
+                width  : 70  mm,
+                height : 36  mm
+                },
         margin-bot :{
-                width  : 70  mm.
-                height : 36  mm.
-                }
+                width  : 70  mm,
+                height : 36  mm
+                },
         margin-left :{
-                width  : 70  mm.
-                height : 36  mm.
-                }
+                width  : 70  mm,
+                height : 36  mm
+                },
         margin-right :{
-                width  : 70  mm.
-                height : 36  mm.
+                width  : 70  mm,
+                height : 36  mm
                 }
+        left-nut :{
+                radius : 1.5 mm,
+                height form point : 10 mm,
+                width from point  : 10 mm
+        }
+        right-nut :{
+                radius : 1.5 mm,
+                height form point : 10 mm,
+                width from point  : 10 mm
+        }
 
 ****************************************************************************
 
