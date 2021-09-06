@@ -26,12 +26,18 @@ Tempbox
                         7. DHT22                X1
 
 
-        this project have  3 Section
+        --------------------------------------------------------------
+        | this project have  3 Section must build on Feecad Software  |
+        |                ---------------------------------------------
+        | 1. lid-box     |
+        | 2. mainboard   |
+        | 3. margin-box  |
+        ------------------
+                | | 
+                \ /
+                 v
 
-        1. margin-box (margin, nut, drill a hole)
-        2. mainboard  
-        3. lid-box 
-
+                 
             lid-box : {
                     lidbox,
                     lid_layer1
