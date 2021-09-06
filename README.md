@@ -68,3 +68,27 @@ list of references :
 1.NodeMCU ESP8266 V2 
 <img src="ref/ESP8266_V2_size/esp8266_v2.png" width="400">
 
+
+2. Relay 5 V 1 CH      
+<img src="ref/RELAY_1_CH_size/relay_1ch_5v.png" width="400">
+
+3. Breadboard 170 hole  
+<img src="ref/Breadboard_170hole_size/BreadBoard_170hole.png" width="400">
+
+
+4. connector 5mm. 2     
+<img src="ref/Wire_electric_connector_small_size/esp8wire_connector266_v2.png" width="400">
+
+
+5. LED 3 v            
+<img src="ref/LED_5_V_Size/LED_5_V.png" width="400">
+
+
+6. Switch 2 way nc,no  
+<img src="ref/Switch_led_2_way_size/Switch_led_2_way.png" width="400">
+
+
+7. DHT22            
+<img src="ref/DHT22_size/DHT22.png" width="400">
+
+
