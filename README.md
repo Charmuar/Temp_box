@@ -63,9 +63,11 @@
                }
 
 
-list of references : 
+****************************************************************************
 
-1.NodeMCU ESP8266 V2 
+        list of references : 
+
+1. NodeMCU ESP8266 V2   
 <img src="ref/ESP8266_V2_size/esp8266_v2.png" width="400">
 
 
@@ -77,7 +79,7 @@ list of references :
 
 
 4. connector 5mm. 2     
-<img src="ref/Wire_electric_connector_small_size/esp8wire_connector266_v2.png" width="400">
+<img src="ref/Wire_electric_connector_small_size/wire_connector.png" width="400">
 
 
 5. LED 3 v            
