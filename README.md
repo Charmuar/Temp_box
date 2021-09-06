@@ -1,6 +1,7 @@
 # Temp_box
 
 -------------------CPE405(T) WEEK1-LAB001-------------------
+
 Hi, everyone 
 
 This project build for education  on Bachelor's degree
@@ -35,44 +36,44 @@ This project build for education  on Bachelor's degree
 
         ----------------------------------------------------------------------------
         | this project have  3 Section fusionm file must build on Freecad Software |
-        |                -----------------------------------------------------------
-        | 1. lid-box     |
-        | 2. mainboard   |
-        | 3. margin-box  |
-        ------------------
+        |                          -------------------------------------------------
+        | 1. lid-box    (union)   |
+        | 2. mainboard  (union)   |
+        | 3. margin-box (union)   |
+        --------------------------
                 | | 
                 \ /
                  v
         list : {
-            lid-box : {
-                    lidbox,                         
-                    lid_layer1                      
+            lid-box : {                                         (Union)
+                    lidbox,                                     (Fillet)
+                    lid_layer1                                  (Body)
                         }
-            mainboard :{
-                    lock-nut-wall-top,              
-                    lock-nut-wall-down              
-                         mainboard_bot :{
-                                 margin-breadboard  : {
-                                         t_l,
-                                         t_r,
-                                         b_l,
-                                         b_r
+            mainboard :{                                        (Union)
+                    lock-nut-wall-top,                          (Fillet)
+                    lock-nut-wall-down                          (Fillet)
+                         mainboard_bot :{                       (Union)
+                                 margin-breadboard  : {         (Union)
+                                         t_l,                   (Union)
+                                         t_r,                   (Union)
+                                         b_l,                   (Union)
+                                         b_r                    (Union)
                                  }
-                                 main-nut  : {
-                                         bottom_mainboard,
-                                         breadboard,
-                                         nut_left_relay,
-                                         nut_right_relay
+                                 main-nut  : {                  (Union)
+                                         bottom_mainboard,      (Body)
+                                         breadboard,            (Body)
+                                         nut_left_relay,        (Body)
+                                         nut_right_relay        (Body)
                                  } 
                         }
                 }
-             margin-box : {
-                    top,
-                    bot,
-                    right,
-                    left,
-                    lock-nut-left,
-                    lock-nut-right      
+             margin-box : {                                     (Fillet)
+                    top,                                        (Fillet)
+                    bot,                                        (Fillet)
+                    right,                                      (Fillet)
+                    left,                                       (Fillet)
+                    lock-nut-left,                              (Fillet)
+                    lock-nut-right                              (Fillet) 
                           }
                                     }
                }
