@@ -94,6 +94,7 @@ This project build for education  on Bachelor's degree
 
         Size Of Each Piece
 
+****************************************************************************
         - - - - - - -
        |  main-board  |
         - - - - - - - 
@@ -176,58 +177,78 @@ This project build for education  on Bachelor's degree
 
 ****************************************************************************
 
-
-
-
-****************************************************************************
-
         List Of References : 
 
-1. NodeMCU ESP8266 V2   
+****************************************************************************        
+
+1. NodeMCU ESP8266 V2
+
 width  : 2.5 cm
+
 height : 4.7 cm
+
 <img src="ref/ESP8266_V2_size/esp8266_v2.png" width="400">
 
 
-2. Relay 5 V 1 CH     
+2. Relay 5 V 1 CH 
+
 width  : 2.8 cm
+
 height : 5.4 cm 
+
 <img src="ref/RELAY_1_CH_size/relay_1ch_5v.png" width="400">
 
 
 3. Breadboard 170 hole 
+
 width  : 3.5 cm
+
 height : 4.7 cm 
+
 <img src="ref/Breadboard_170hole_size/BreadBoard_170hole.png" width="400">
 
 
-4. connector 5mm. 2 
+4. connector 5mm 
+
 width  : 2.1 cm
-height : 5.5 cm    
+
+height : 5.5 cm   
+
 <img src="ref/Wire_electric_connector_small_size/wire_connector.png" width="400">
 
 
 5. LED 3 v
+
 width  : 5.0 cm
+
 height : 7.6 cm            
+
 <img src="ref/LED_3_V_Size/LED_3_V.png" width="400">
 
 
 6. Switch 2 way nc,no
+
 width  :  1.03 cm
+
 height :  1.48 cm  
+
 <img src="ref/Switch_led_2_way_size/Switch_led_2_way.png" width="400">
 
 
 7. DHT22
+
 width  : 1.5 cm
+
 height : 2.5 cm            
+
 <img src="ref/DHT22_size/DHT22.png" width="400">
 
 
 ****************************************************************************
 
         Finally (^_^)
+
+****************************************************************************
 
         Isometric-view
 
