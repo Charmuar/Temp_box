@@ -80,7 +80,7 @@ This project build for education  on Bachelor's degree
                }
 ****************************************************************************
          - - - - - - -
-       | lit-box-all   |
+       | lid-box-all   |
          - - - - - - - 
         lid-box :{
                 width  : 110 mm.
@@ -230,4 +230,4 @@ height : 2.5 cm
         Finally (^_^)
 
 
-<img src="Freecad/1.png">
+<img src="Freecad/isometric-view.png">
