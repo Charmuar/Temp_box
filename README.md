@@ -1,6 +1,12 @@
 # Temp_box
 
 -------------------CPE405(T) WEEK1-LAB001-------------------
+Hi, everyone 
+
+This project build for education  on Bachelor's degree
+
+
+
 
          - - - - - - - - - - - - - - 
         | CPE405(T)                 |
@@ -61,6 +67,42 @@
 
                                     }
                }
+
+****************************************************************************
+
+        lid-box :{
+                width  : 110 mm.
+                height : 70  mm.
+        }
+        lid-layer1 :{
+                width  : 110 mm.
+                height : 70  mm.
+        }
+****************************************************************************
+        mainboard : {
+                width  : 110 mm.
+                height : 70  mm.
+                }
+        margin-top :{
+                width  : 70  mm.
+                height : 36  mm.
+                }
+        margin-bot :{
+                width  : 70  mm.
+                height : 36  mm.
+                }
+        margin-left :{
+                width  : 70  mm.
+                height : 36  mm.
+                }
+        margin-right :{
+                width  : 70  mm.
+                height : 36  mm.
+                }
+
+****************************************************************************
+
+
 
 
 ****************************************************************************
