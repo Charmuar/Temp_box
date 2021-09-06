@@ -1,17 +1,17 @@
 # Temp_box
--------------------CPE405(T) WEEK1-LAB001-------------------
 
-----------------------61043845-------------------------------
+         - - - - - - - - - - - - - - 
+        | CPE405(T)                 |
+         - - - - - - - - - - - - - - 
+        | Parkin Thanantthanachon   |
+         - - - - - - - - - - - - - - 
+        | 61043845                  |
+         - - - - - - - - - - - - - - 
 
----------------PARKIN THANANATTHANACHON---------------
-
-
---- Software ----
-
-Freecad 2017 
-
+        *********************************
+        Software : Freecad              *
         Project : Temp box 
-        Date 6/09/2021
+        Date    : 6/09/2021
 
 
         equipment : 
@@ -24,9 +24,9 @@ Freecad 2017
                         7. DHT22                X1
 
 
-        --------------------------------------------------------------
-        | this project have  3 Section must build on Freecad Software |
-        |                ---------------------------------------------
+        ----------------------------------------------------------------------------
+        | this project have  3 Section fusionm file must build on Freecad Software |
+        |                -----------------------------------------------------------
         | 1. lid-box     |
         | 2. mainboard   |
         | 3. margin-box  |
@@ -34,8 +34,7 @@ Freecad 2017
                 | | 
                 \ /
                  v
-
-
+        list : {
             lid-box : {
                     lidbox,
                     lid_layer1
@@ -56,3 +55,13 @@ Freecad 2017
                     lock-nut-left,
                     lock-nut-right
                           }
+
+                                    }
+               }
+
+
+list of references : 
+
+1.NodeMCU ESP8266 V2 
+<img src="ref/ESP8266_V2_size/esp8266_v2.png" width="400">
+
