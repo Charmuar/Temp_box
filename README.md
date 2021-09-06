@@ -11,9 +11,8 @@
 
 Freecad 2017 
 
---- Project ---
-
-Tempbox
+        Project : Temp box 
+        Date 6/09/2021
 
 
         equipment : 
@@ -27,7 +26,7 @@ Tempbox
 
 
         --------------------------------------------------------------
-        | this project have  3 Section must build on Feecad Software  |
+        | this project have  3 Section must build on Freecad Software |
         |                ---------------------------------------------
         | 1. lid-box     |
         | 2. mainboard   |
@@ -37,24 +36,24 @@ Tempbox
                 \ /
                  v
 
-                 
+
             lid-box : {
                     lidbox,
                     lid_layer1
-            }
+                        }
             mainboard :{
                     lock-nut-wall-top,
                     lock-nut-wall-down
                          mainboard_bot :{
                                  margin-breadboard,
                                  main-lock-nut
-                        }
-           }
-           margin-box : {
-                   top,
-                   bot,
-                   right,
-                   left,
-                   lock-nut-left,
-                   lock-nut-right
-           }
+                                        }
+                         }
+             margin-box : {
+                    top,
+                    bot,
+                    right,
+                    left,
+                    lock-nut-left,
+                    lock-nut-right
+                          }
