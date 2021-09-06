@@ -210,7 +210,7 @@ height : 5.5 cm
 5. LED 3 v
 width  : 5.0 cm
 height : 7.6 cm            
-<img src="ref/LED_5_V_Size/LED_5_V.png" width="400">
+<img src="ref/LED_3_V_Size/LED_3_V.png" width="400">
 
 
 6. Switch 2 way nc,no
