@@ -14,7 +14,7 @@ Freecad 2017
 
         Project : Temp box 
         Date 6/09/2021
-        <img src="Freecad/isometric-view.png" width="300">
+
 
 
         equipment : 
