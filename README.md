@@ -252,28 +252,28 @@ height : 2.5 cm
 
         Isometric-view
 
-<img src="Freecad/isometric-view.png">
+<img src="Freecad-Pic/isometric-view.png">
 
         Font-view
 
-<img src="Freecad/font-view.png">
+<img src="Freecad-Pic/font-view.png">
 
         Top-view
 
-<img src="Freecad/top-view.png">
+<img src="Freecad-Pic/top-view.png">
 
         Right-view
 
-<img src="Freecad/right-view.png">
+<img src="Freecad-Pic/right-view.png">
 
         Left-view
 
-<img src="Freecad/left-view.png">
+<img src="Freecad-Pic/left-view.png">
 
         Rear-view
 
-<img src="Freecad/rear-view.png">
+<img src="Freecad-Pic/rear-view.png">
 
         bottom-view
 
-<img src="Freecad/bottom-view.png">
+<img src="Freecad-Pic/bottom-view.png">
